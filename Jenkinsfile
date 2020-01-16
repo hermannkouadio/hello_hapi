@@ -4,8 +4,8 @@ pipeline {
 
     agent {
         docker {
-            image 'bngdocker/update '
-            args '-u bngdev'
+            image 'node'
+            args '-u root'
         }
     }
 
