@@ -4,8 +4,8 @@ pipeline {
 
     agent {
         docker {
-            image 'node'
-            args '-u root'
+            image 'ubuntu'
+            args '-u bngdev'
         }
     }
 
